@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif; 
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  filter: brightness(0.7);
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  top: 20%;
+  color: white;
+}
+
+input {
+  padding: 10px;
+  padding-left: 20px;
+  width: 700px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-size: 17px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background: #4caf50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+  font-size: 17px;
+}
+
+#weatherResult {
+  margin-top: 20px;
+  font-size: 18px;
+}
